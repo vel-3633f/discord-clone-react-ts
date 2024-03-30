@@ -3,6 +3,9 @@ export default {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        noto: ["Noto Sans JP"],
+      },
       colors: {
         primary: "rgb(34 32 37)",
         secondary: "rgb(48 49 53)",

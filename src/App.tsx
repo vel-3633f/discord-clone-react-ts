@@ -1,11 +1,11 @@
-import Home from "./components/Home";
+import Chat from "./components/chat/Chat";
 import Sidebar from "./components/sidebar/Sidebar";
 
 function App() {
   return (
-    <div className="flex">
+    <div className="flex font-noto">
       <Sidebar />
-      <Home />
+      <Chat />
     </div>
   );
 }
